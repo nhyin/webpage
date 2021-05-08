@@ -1,71 +1,95 @@
 <!doctype html>
-<html lang="zh-Hant-TW">
+<html lang="en">
 <head>
+	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-
 	<title>Wellness Coach Jenna</title>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/headers/">
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+	</style>
+
+	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-	<h1>不只是活著，而是活出最好的自己</h1>
-	<p>人生中的每個面向都是健康組成之一
-	<br>不只是飲食、運動、睡眠
-	<br>情緒、思想、工作和社交、心靈成長
-	<br>都和我們的健康快樂息息相關</p>
-	<p>
-	<br>美國國家身心健康學會定義身心健康的六大面向
-	<br>生理(身體)、心智(判斷思考)、情緒、人際關係、職涯、靈性寄託
-	<br>
-	<br>每個部份其實都隨時有交互作用
-	<br>如果健康問題只有專注在生理(身體層面)
-	<br>就常會發現
-	<br>很多症狀其實沒有一定的原因
-	<br>尤其是慢性身體問題、皮膚問題、筋骨疼痛…
-	<br>最終只能歸咎於體質、壓力、環境…</p>
-	<p>症狀反反覆覆的發生
-	<br>疲勞、脹氣、皮膚癢、過敏…都影響著我們的生活品質
-	<br>找不到確切原因的問題更是令人困擾
-	<br>
-	<br>但如果有了身心健康的概念
-	<br>你會發現，問題其實也沒這麼複雜
-	<br>如果了解到
-	<br>生活習慣、心理情緒、生活壓力、心靈成長都會影響我們的健康
-	<br>那我們能做的事情就很多了
-	<br>
-	<br>舉例來說，
-	<br>⚡不良的飲食習慣讓腸胃增加身體消化負擔、長期體重上升又增加了個人心理負擔
-	<br>⚡工作壓力讓身心無法負荷，有慢性疲勞、失眠問題，也更容易導致腰酸背痛、情緒暴躁
-	<br>⚡沒有精神層命的寄託，了解生命的意義，容易有不曉得在瞎忙什麼的空虛感
-	<br>容易更依賴他人的關注，無法正視自己的需求、照顧好自己的身體</p>
-	<h2>那些我們不願意面對的事情，往往也才是真正讓我們健康失衡的主要來源</h2>
-	<p>針對上面的例子
-	<br>改變飲食習慣、培養正確紓壓方式、多探索心靈或哲學相關成長書籍或課程等
-	<br>都是我們能為自己健康負責的方法，而這也才是根本的解決之道！
-	<br>
-	<br>🍀 了解身心健康不是教導大眾自己當醫生
-	<br>而是在心裡把讓自己健康的責任和力量拿回來
-	<br>
-	<br>醫療人員可以幫助對抗細菌病毒
-	<br>但無法幫每個人建立強健、有活力的身體
-	<br>培養良好的壓力管理、正面思考能力</p>
-	<p>像是培養一棵植物
-	<br>我們可以施肥、灌溉、細心呵護
-	<br>長出來的植物自然不需要額外的支架、遮蔭就長的健壯
-	<br>更能夠面對大自然的風吹雨淋</p>
-	<h2>請像栽培植物一樣用心對待我們的身體</h2>
-	<p>用『健康飲食、規律運動、足夠睡眠』灌溉我們的身體
-	<br>用『和諧的人際關係、良好的壓力管理、正面思考』為我們的身心施肥
-	</p>
-	<h2>我們是自己身體唯一的主人
-	<br>當我們夠用心照顧
-	<br>身體也會回應給我們最渴望的健康快樂</h2>
-</body>
-<footer>
 
-</footer>
-</body>
-</html>
+	<!-- HEADER 面板套用 -->
 
+	<header class="p-3 bg-dark text-white">
+		<div class="container">
+			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+				<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+					<svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+				</a>
+
+				<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+					<li><a href="#" class="nav-link px-2 text-secondary">最新消息</a></li>
+					<li><a href="#" class="nav-link px-2 text-white">關於我</a></li>
+					<li><a href="#" class="nav-link px-2 text-white">學員見證</a></li>
+					<li><a href="#" class="nav-link px-2 text-white">文章</a></li>
+					<li><a href="#" class="nav-link px-2 text-white">服務</a></li>
+				</ul>
+
+				<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+					<input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+				</form>
+
+				<div class="text-end">
+					<button type="button" class="btn btn-outline-light me-2">登入</button>
+					<button type="button" class="btn btn-warning">註冊</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- HEROS 面板套用 -->
+	<main>
+		<div class="container my-5">
+			<div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-light">
+				<div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+					<h1 class="display-4 fw-bold lh-1">Hello 我是 Jenna</h1>
+					<p class="lead">一名住在英國的身心健康教練
+						<br>熱情於分享身心健康的概念
+						<br>帶領更多人透過培養正向的生活習慣
+						<br>拿回健康和體態的主控權是我的使命</p>
+						<div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+							<a href="about-me.html" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" role="button">關於我</a>
+							<a href="what-is-wellness.html" class="btn btn-outline-secondary btn-lg px-4" role="button">什麼是身心健康？</a>
+
+						</div>
+					</div>
+					<div class="col-lg-4 offset-lg-1 p-0 position-relative overflow-hidden">
+						<div class="position-lg-absolute top-0 left-0 overflow-hidden">
+							<img class="d-block rounded-lg-3" src="jenna.jpg" alt="" width="320">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+		</main>
+
+
+		<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+	</body>
+	</html>
